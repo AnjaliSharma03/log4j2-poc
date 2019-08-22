@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8dac3095-ae3f-4463-9949-79ceeaee62df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../LAS-P-lightbend-akka-for-scala-professional-v1/exercises/src/main/scala/com/lightbend/training/coffeehouse/Waiter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../directory-content-fetcher/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../directory-content-fetcher/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../directory-content-fetcher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../directory-content-fetcher/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-assignment-04-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-assignment-04-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-assignment-04-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-assignment-04-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-assignment-04-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/default/scala-assignment-04$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/default/scala-assignment-04$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/default/scala-assignment-04$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/default/scala-assignment-04$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/default/scala-assignment-04_2.13/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/default/scala-assignment-04_2.13/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/default/scala-assignment-04_2.13/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/default/scala-assignment-04_2.13/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/scala-2.13/resolution-cache/reports/default-scala-assignment-04_2.13-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/streams/$global/update/$global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/streams/$global/update/$global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala-assignment-04/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-assignment-04/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/LoggerClass.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/LoggerClass2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/LoggerClass.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/LoggerClass2.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/modules/poc-log4j2-build.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_logging_log4j_log4j_api_2_11_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_logging_log4j_log4j_api_scala_2_11_11_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_logging_log4j_log4j_core_2_11_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_0_jar.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="77" />
+    <option name="y" value="47" />
+    <option name="width" value="1161" />
+    <option name="height" value="650" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="poc-log4j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc-log4j2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poc-log4j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc-log4j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poc-log4j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc-log4j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poc-log4j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc-log4j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poc-log4j2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc-log4j2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MyApp" />
+      <module name="poc-log4j2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="poc-log4j2" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="poc-log4j2 [file:/home/knoldus/Documents/poc-log4j2/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="poc-log4j2-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="2084027571" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../LAS-P-lightbend-akka-for-scala-professional-v1" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../akka-quickstart-scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../akka-samples-persistence-scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../knolx-portal" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../knolx-portal-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../scala-01" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/UserManagement-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/knolx-portal-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dac3095-ae3f-4463-9949-79ceeaee62df" name="Default Changelist" comment="" />
+      <created>1566285105029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566285105029</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="7" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.33106962" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.40237692" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3293718" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="sbt" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-api-scala_2.11/srcs/log4j-api-scala_2.11-11.0-sources.jar!/org/apache/logging/log4j/scala/Logging.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/LoggerClass.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/LoggerClass2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
